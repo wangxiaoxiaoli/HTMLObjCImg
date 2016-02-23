@@ -22,6 +22,7 @@
     webView.delegate = self;
     
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.cocoachina.com/programmer/20160113/14976.html"]]];
+    NSLog(@"测试。。。。。。。。。");
     
     
 }
